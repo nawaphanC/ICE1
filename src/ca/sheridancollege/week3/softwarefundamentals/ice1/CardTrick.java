@@ -49,16 +49,16 @@ public class CardTrick {
         }
         
         //insert code to ask the user for Card value and suit, create their card
-        Scanner input = new Scanner(System.in);
+//         Scanner input = new Scanner(System.in);
         
-        System.out.println("Please enter the card suit");
-        String userSuit = input.nextLine();
-        System.out.println("Please enter the card value");
-        int userValue = input.nextInt();
+//         System.out.println("Please enter the card suit");
+//         String userSuit = input.nextLine();
+//         System.out.println("Please enter the card value");
+//         int userValue = input.nextInt();
         
         Card userCard = new Card();
-        userCard.setValue(userValue);
-        userCard.setSuit(userSuit);
+        userCard.setValue(12);
+        userCard.setSuit("Clubs");
         
         // and search magicHand here
         boolean check = false;
