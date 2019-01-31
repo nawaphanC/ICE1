@@ -72,6 +72,11 @@ public class CardTrick {
         }
         //Then report the result here
         System.out.println("The result is: " + check);
+        if(check){
+            System.out.println("Winning");
+        } else {
+            System.out.println("Losing");
+        }
     }
     
 }
